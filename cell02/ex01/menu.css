@@ -1,0 +1,59 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+body {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/01/45/30/05/1000_F_145300545_EO0vqKKiuQrdFCXLhq66F4w969OdKytO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+
+.dropdown-button {
+    background-color: #990dd0; 
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.dropdown-content {
+    display: none;
+    background-color: #ad5dbb; 
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px greenyellow;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #004488;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+.bg-image {
+    
+    background-image: url("https://cdm0lfbn.cloudimg.io/v7/_images_base_/image_uploader/photos/77/original/sncf-train-in-station.jpg?ua=1579870318&p=large");
+}

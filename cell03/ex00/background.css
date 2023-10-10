@@ -1,0 +1,11 @@
+body {
+   
+    background-color: #3498db; /* Initial background color */
+    transition: background-color 0.5s;
+}
+
+button {
+   
+    font-size: 15px;
+   
+}
